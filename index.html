@@ -1,21 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ShowNet</title>
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-  </head>
-  <body class="d-flex h-100 text-center text-bg-dark">
-    <div class="main container">
-      <!-- <h1>ShowNet is Closed</h1> -->
-      <img src="./images/bg.jpeg" class="img-fluid" alt="ShowNet 2025">
-      <div class="overlay">
-	<h1 id="title" class="display-5">今年のShowNet は終了しました。<br>また来年お会いしましょう！</h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ShowNet Peering Portal</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" media="all" />
+  <script src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+.main.container, 
+.main.container-fluid {
+    margin-top: 70px;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md fixed-top bg-dark" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="/"><span class="fa-solid fa-circle-nodes me-1"></span>ShowNet Peering Portal</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main container">
+    <div class="row">
+      <div class="col-12">
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <h1>ShowNet Peering Portal</h1>
+            <p class="lead">The ShowNet Peering Portal is currently shutdown.</p>
+            <p>ShowNet 2025 has ended. We look forward to your participation again next year.</p>
+          </div>
+          <div class="col-sm-6">
+            <img class="img-fluid mx-auto d-block" alt="External Topology" src="./images/external-2025.jpg" />
+            <p class="text-muted text-center">
+              External Topology 2025
+            </p>
+          </div>
+	</div>
       </div>
     </div>
-
-    <script src="./js/bootstrap.min.js"></script>
-  </body>
+  </div>
+  <footer>
+    <div class="container">
+      <hr />
+      <p class="float-end">
+        <i class="fa-solid fa-circle-nodes mx-1"></i>ShowNet Peering Portal
+      </p>
+    </div>
+  </footer>
+</body>
 </html>
